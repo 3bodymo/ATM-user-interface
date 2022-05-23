@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET") {
     }
     else {
         $account_number = preg_replace('/\s+/', '', $account_number);
-		    $account_number_encrypted = openssl_encrypt($account_number, "AES-128-CTR", "SX4567!ke@5628#5SadK5", 0, '1234567891011121');
+	$account_number_encrypted = openssl_encrypt($account_number, "AES-128-CTR", "SX4567!ke@5628#5SadK5", 0, '1234567891011121');
         setcookie("account_number", $account_number_encrypted);
         $db = connectToDatabase();
         $sql = "SELECT first_name FROM clients WHERE account_number = '$account_number'";
