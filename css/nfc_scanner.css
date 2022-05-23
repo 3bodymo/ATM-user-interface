@@ -1,0 +1,57 @@
+.align {
+  display: grid;
+  place-items: center;
+}
+.icon {
+  font-size: 2rem;
+}
+body {
+  color: #888;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+  color: #111;
+  margin-bottom: -5.5em;
+  font-size: 200%;
+}
+p {
+  margin-bottom: 4.5em;
+  margin-top: -25.5em;
+}
+input {
+  font: inherit;
+  outline: 0;
+}
+.form__field {
+  position: relative;
+}
+.form__field .icon {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%)
+}
+.form__input {
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 1.5rem;
+  padding: 0.5em 4em 0.5em 2em;
+}
+.form__input:valid {
+  border-color: forestgreen;
+}
+.form__input:valid + .icon::after {
+  content: '😃';
+}
+.form__input:invalid {
+  border-color: firebrick;
+}
+.form__input:invalid + .icon::after {
+  content: '😳';
+}

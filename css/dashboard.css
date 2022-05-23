@@ -1,0 +1,43 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color:#1669c2;
+}
+.service_title {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+}
+.btn-group button {
+    background-color: #ffffff;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 1.6vw;
+    text-align: center;
+    font-weight: bold;
+    color: #1669c2;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 27%;
+    height: 6vw;
+}
+.btn-group button:not(:last-child) {
+    border-bottom: none;
+}
+.btn-group button:not(.nohover):hover {
+    color: #ffffff;
+    background-color: #145faf;
+}
+.btn-group {
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: auto;
+    margin-left: 9%;
+    margin-right: auto;
+}
+.B2 {
+    margin-left: 36%;
+}
+.btn-group-ma {
+    margin-top: 3%;
+}
