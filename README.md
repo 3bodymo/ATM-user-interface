@@ -48,8 +48,3 @@ VALUES ('1', 'Abdullah', 'Mohamed', '3ba97003', '1234', '1523', '123412341234123
 
 ## Demo
 https://user-images.githubusercontent.com/63552083/168093263-5b6973c4-cfbb-4b81-9a4f-4df1282dfc41.mp4
-
-## Resources I used it
-* https://gist.github.com/CodeMyUI/e166e6d1af064446e89a9054a970b26c
-* https://codepen.io/marcobiedermann/pen/eRNWxQ
-* https://codepen.io/lucasyem/pen/ZEEYKdj
